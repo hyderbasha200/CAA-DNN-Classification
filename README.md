@@ -37,7 +37,7 @@ Network construction and model training:
 - DNN Classifier: Built with 5 hidden layers, iterations: 200; batch size: 36; optimization algorithm: Adam; learning rate: 1e-3; loss: MSE; L1 regularization: 0.001 (layer 2), 0.01 (layer 5); L2 regularization: 0.05 (layer 2), 0.001 (layer 5).
 
 ## Results
-The Deep autoencoder allowed us to embed gene transcription into a 32-dimensional vector. The designed DNN correctly identified 95% of the training set and 65% of the testing set. To validate the findings, a subset of a publicly available dataset, the Mayo Clinic CAA-AD dataset, was used. The evaluation yielded a 55% accuracy of prediction of CAA. 
+The Deep autoencoder allowed us to embed gene transcription into a 32-dimensional vector. The designed DNN correctly identified 95% of the training set and 95% of the testing set. To validate the findings, a subset of a publicly available dataset, the Mayo Clinic CAA-AD dataset, was used. The evaluation yielded a 55% accuracy of prediction of CAA. 
 
 ## References
 [1] Karch CM, Cruchaga C, Goate AM. Alzheimer’s disease genetics: from the bench to the clinic. Neuron. 2014;83(1):11–26.
